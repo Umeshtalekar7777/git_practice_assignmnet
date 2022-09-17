@@ -2,11 +2,11 @@
 
 let num = 7;
 
-flag = false;
+flag = true;
 
-for (let i = 2; i < num; i--) {
+for (let i = 2; i < num; i++) {
   if (num % i == 0) {
-    flag = true;
+    flag = false;
   }
 }
 if (flag == true) {
@@ -19,7 +19,7 @@ if (flag == true) {
 
 let str = "masai";
 
-let bag = 0;
+let bag = "";
 for (let j = str.length - 1; j >= 0; j--) {
   bag += str[j];
 }
